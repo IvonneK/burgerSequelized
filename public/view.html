@@ -17,7 +17,7 @@
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="./public/css/burger_style.css" type="text/css">
+    <link rel="stylesheet" href="../css/burger_style.css" type="text/css">
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
@@ -39,7 +39,7 @@
                     <span class="icon-bar"></span>
                 </button>
                 <a class="navbar-brand" href="#">Eat-Da-burger!
-                    <img src="/assets/img/burger.png" id="nav-burger" alt="nav Burger">
+                    <img src="../img/burger.png" id="nav-burger" alt="nav Burger">
                 </a>
             </div>
         
@@ -64,31 +64,31 @@
                 <!-- Wrapper for carousel items -->
                 <div class="carousel-inner">
                     <div class="item active">
-                        <img src="./assets/img/burgerrest.jpg" alt="Restaurant Slide">
+                        <img src="./img/burgerrest.jpg" alt="Restaurant Slide">
                     </div>
                     <div class="item">
-                        <img src="./assets/img/burger.png" alt="Burger Slide">
+                        <img src="./img/burger.png" alt="Burger Slide">
                     </div>
                     <div class="item">
-                        <img src="./assets/img/burger2.png" alt="Burger2 Slide">
+                        <img src="./img/burger2.png" alt="Burger2 Slide">
                     </div>
                     <div class="item">
                         <img src="./assets/img/burgercrunch.jpg" alt="Burger Crunch Slide">
                     </div>
                     <div class="item">
-                        <img src="./assets/img/burgeregg.jpg" alt="Burger n egg Slide">
+                        <img src="./img/burgeregg.jpg" alt="Burger n egg Slide">
                     </div>
                     <div class="item">
-                        <img src="./assets/img/burgerpea.png" alt="Burger w peas Slide">
+                        <img src="./img/burgerpea.png" alt="Burger w peas Slide">
                     </div>
                     <div class="item">
-                        <img src="./assets/img/hamburglar.jpg" alt="Hamburglar Slide">
+                        <img src="./img/hamburglar.jpg" alt="Hamburglar Slide">
                     </div>
                     <div class="item">
-                        <img src="./assets/img/burgerphilly.jpg" alt="Philly Burger Slide">
+                        <img src="./img/burgerphilly.jpg" alt="Philly Burger Slide">
                     </div>
                     <div class="item">
-                        <img src="./assets/img/burgerveggie.png" alt="Veggie Burger Slide">
+                        <img src="./img/burgerveggie.png" alt="Veggie Burger Slide">
                     </div>
                 </div>
                 <!-- Carousel controls -->
@@ -103,12 +103,14 @@
 	</div>	
 	<h2>Add a Burger</h2>
 		<form class="create-update-form" action="/" method="POST">
-			<div class="form-group">
+			<div class="form-group new-item">
 				<label for="burg"></label>
-				<input type="text" name="burger_name" placeholder="Name-da-burger!"<br>
+				<input class="new-item" type="text" name="burger_name" placeholder="Name-da-burger!"<br>
 				<button type="submit" class="btn btn-primary btn-sm">Add</button>
 			</div>
 		</form>	
+
+
 	<div class="row">
 	  	<div class="col-md-6 col-sm-6 col-xs-6">
 			<ul class="burger-bullet"><h2>Choose a Burger</h2>

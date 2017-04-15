@@ -1,5 +1,7 @@
-// couldn't get it to work with the carousel it wants this code with the jquery script otherwise won't run I left in handlebars.
 
+console.log('=============================================================');
+console.log('tiemcarousel.js                                                  ');
+console.log('=============================================================');
 $(document).ready(function() {
    $('.item').each(function() {
        if (!$(this).hasClass("active")) {
